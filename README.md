@@ -61,3 +61,155 @@
 -   Κάμερα για Raspberry Pi, διαθέτουμε ήδη στο εργαστήριο
 -   3Δ εκτυπωτής 3D PRINTER BAMBULAB A1 COMBO, κόστος 549 ευρώ
 -   Μεταλλικός σκελετός, διαθέτουμε ήδη στο εργαστήριο
+
+## Υλοποίηση
+
+### Μαθαίνοντας για την Τεχνητή Νοημοσύνη και την Αναγνώριση Σώματος
+
+Η υλοποίηση ξεκίνησε με μια σειρά εισαγωγικών μαθημάτων πάνω στις βασικές αρχές της τεχνητής νοημοσύνης και της μηχανικής μάθησης. Τα παιδιά:
+
+-   **Πειραματίστηκαν με το Google Teachable Machine**, δημιουργώντας παραδείγματα αναγνώρισης  **εικόνας, ήχου και πόζας σώματος**.
+-   Κατανόησαν μέσα από βιωματικές δραστηριότητες πώς ένας υπολογιστής μπορεί να “μάθει” να αναγνωρίζει πρότυπα και στάσεις του ανθρώπινου σώματος.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_183541-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_183541-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_183544-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_183544-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_184009-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20241002_184009-Copy.jpg)
+
+### Πρώτα Βήματα στον Προγραμματισμό με AI
+
+Ακολούθησε η εξοικείωση με την πλατφόρμα  **Pictoblox**, όπου δημιουργήθηκε η πρώτη μικρή εφαρμογή με χριστουγεννιάτικο χαρακτήρα:  **η αναγνώριση προσώπου και η προσθήκη σκούφου και γενιών του Άγιου Βασίλη**  στην εικόνα του χρήστη, σε πραγματικό χρόνο.
+
+### Ανάλυση και Κατανόηση του Μοντέλου Αναγνώρισης Σώματος
+
+Μετά τις γιορτές, η εστίαση μετατοπίστηκε στην κατανόηση του μοντέλου αναγνώρισης στάσεων σώματος του Pictoblox, το οποίο αναγνωρίζει τα  **σημεία-κλειδιά**  του σώματος, όπως:
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/human-body-recognition-1.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/human-body-recognition-1.png)
+
+Τα σημεία του ανθρώπινου σώματος που αναγνωρίζει το Human Body Detection στο Pictoblox
+
+![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/image-1.png)
+
+Οι μαθητές ανέλαβαν να μελετήσουν τη  **στάση του σώματος**  κατά την εκτέλεση διαφορετικών μουσικών οργάνων. Κάθε παιδί πόζαρε κρατώντας «φανταστικά» όργανα και οι υπόλοιποι  **κατέγραφαν σε χαρτί**  τα σημεία του σώματος, αναλύοντας πώς μεταβάλλονται ανάλογα με το όργανο.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124455-Copy-769x1024.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124455-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124504-Copy-769x1024.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124504-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124516-Copy-769x1024.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124516-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124521-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124521-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124545-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124545-Copy.jpg)
+
+### Από τη Θεωρία στην Πράξη: Ανάπτυξη του “Let’s PL.AI Music”
+
+Με βάση τις παρατηρήσεις, οι ομάδες ανέπτυξαν μια  **διαδραστική εφαρμογή**  στην οποία:
+
+-   Η κάμερα αναγνωρίζει τη στάση του σώματος.
+-   Αν η στάση αντιστοιχεί σε ένα μουσικό όργανο, η εφαρμογή  **παίζει τις αντίστοιχες νότες**.
+-   Στην οθόνη εμφανίζεται το εικονικό μουσικό όργανο, σαν να το κρατά ο χρήστης.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124600-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_124600-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_130652-Copy-769x1024.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_130652-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_130709-Copy-769x1024.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250217_130709-Copy.jpg)
+
+Το βασικό σεναριο της εφαρμογής μας βρίσκεται στη σκηνή και είναι υπέυθυνο για την αναγνώριση της στάσης του σώματος. Αρχικά ενεργοποιεί την κάμερα και ενεργοποιεί και την εμφάνιση των σημείων (αυτό γίνεται για λόγους debugging και μπορεί να απενεργοποιηθεί στην τελική έκδοση). Μετά σε ένα διαρκώς επαναλαμβανόμενο βρόγχο “Για πάντα” αναλύεται η εικόνα από την κάμερα και γίνονται οι έλεγχοι με την δομή Εαν… αλλιώς. Κάθε μουσικό όργανο έχει μια διαφορετική στάση σώματος και όταν εντοπιστεί αλάζουμε την τιμή της μεταβλητής “Μουσικό όργανο”.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/script-bg-1024x285.png)](https://hackers.ioarvanit.gr/archives/5596/script-bg)
+
+Εκτός από το κεντρικό σενάριο που κάνει την “σκληρή δουλειά” κάθε μουσικό όργανο έχει το δικό του σενάριο. Έτσι η κιθάρα ελέγχει διαρκώς την τιμή της μεταβλητής Μουσικό όργανο και αν αυτή γίνει κιθάρα τότε εμφανίζει τον χαρακτήρα της κιθάρας στην σωστή θέση και στο σωστό μέγεθος και παίζει μερικές νότες με ήχο κιθάρας.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/image-3-1024x715.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/image-3.png)
+
+Ανάλογα είναι και τα σενάρια για το ντραμς και για το φλάουτο και για όποιο μουσικό όργανο θα προσθέσουμε στη συνέχεια.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/script-flute-1024x969.png)](https://hackers.ioarvanit.gr/archives/5596/script-flute)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/script-drums-1024x665.png)](https://hackers.ioarvanit.gr/archives/5596/script-drums)
+
+Η εφαρμογή αυτή λειτουργεί ήδη πολύ καλά για:
+
+-   **Κιθάρα**
+-   **Φλάουτο**
+-   **Ντραμς**
+
+…και πρόκειται να επεκταθεί και σε άλλα όργανα σύντομα.  [Μπορείτε να κατεβάσετε το αρχείο σε μορφή sb3 για το Pictoblox σε αυτό τον σύνδεσμο](https://drive.google.com/file/d/1X4dzUUeeDXxNdvI4ZwDYm55Rm_1FNR_X/view?usp=sharing).
+
+### Σχεδιασμός και Κατασκευή της Δομής
+
+Η τεχνολογική υλοποίηση συνοδεύτηκε από  **σχεδιασμό της φυσικής κατασκευής**  στο  **TinkerCAD**, η οποία θα στεγάσει:
+
+-   Το  **Raspberry Pi**
+-   Μια  **οθόνη**
+-   Μια  **κάμερα**
+-   Την  **μπαταρία λιθίου**
+-   Τα  **ηχεία**
+-   Τη  **δομή στήριξης**
+
+Τα παιδιά εργάστηκαν ανά δύο και σχεδίασαν το βασικό κουτί που θα περιλαμβάνει την κατασκευή καθώς και το πλαίσιο που θα μπαίνει πάνω στην οθόνη. Μετρήσαμε τις διαστάσεις της οθόνης και του Raspberry Pi, καθώς και της μπαταρίας και σχεδιάσαμε το κουτί και το πλαίσιο στο TinkerCAD. Μπορείτε να κατεβάσετε τα σχέδια αυτά σε μορφή glb στους παρακάτω συνδέσμους:
+
+-   [Αρχείο περιβλήματος](https://drive.google.com/file/d/1xWTbC_SEr9mOuMl3OMaAYCkev4v5spGa/view?usp=drive_link)
+-   [Αρχείο πλαισίου](https://drive.google.com/file/d/18pfoNNfQq86fumOY0tmdpJqjTgg5uuMP/view?usp=drive_link)
+
+Στις παρακάτω φωτογραφίες φαίνονται οι δημιουργίες των μαθητών με την διακόσμηση που επέλεξε η κάθε ομάδα.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/image-2-1024x519.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/image-2.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_1-1024x488.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_1.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_2-1-1024x509.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_2-1.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_3-1024x533.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_3.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_4-1024x487.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_4.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_5-1024x475.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_5.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_6-1024x481.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_6.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_7-1024x484.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_7.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_8-1024x507.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_8.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_9-1024x486.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_9.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_10-1024x487.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_10.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_11-1024x519.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/Screenshot_11.png)
+
+Τα εξαρτήματα εκτυπώθηκαν στους  **3D εκτυπωτές μας**, ενώ έγιναν βελτιώσεις μετά από αρχικές δοκιμές. Παρά τις ακριβείς μετρήσεις με παχύμετρο αναγκαστήκαμε να διορθώσουμε αρκετές φορές τα σχέδια μας ώστε να βελτιώσουμε την προσαρμογή των εξαρτημάτων.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001122-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001122-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250314_131707-Copy-1024x701.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250314_131707-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001148-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001148-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001243-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001243-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001340-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001340-Copy.jpg)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001510-Copy-1024x769.jpg)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/IMG_20250611_001510-Copy.jpg)
+
+Στο τελικό στάδιο, οι μαθητές κατασκευάζουν τον  **ξύλινο σκελετό**  της κατασκευής, τον οποίο διακοσμούν με  **χάραξη μέσω CNC Laser**, δίνοντας μοναδικό χαρακτήρα στο έργο.
+
+### Επόμενα Βήματα και Διάχυση
+
+Το έργο παρουσιάστηκε στο 14ο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας που διοργανώθηκε στην Φλώρινα, στο 3ο Γυμνάσιο Φλώρινας ενώ τις επόμενες ημέρες:
+
+-   Τα σχέδια και η περιγραφή του έργου θα αποσταλούν στο  **Τμήμα Μηχανικών Σχεδίασης Προϊόντων και Συστημάτων**  του Πανεπιστημίου Δυτικής Μακεδονίας, για τεχνική υποστήριξη και ανατροφοδότηση.
+-   Θα πραγματοποιηθεί παρουσίαση του έργου στον  **Δήμο Φλώρινας**, με στόχο την πιλοτική εγκατάσταση του συστήματος σε δημόσιο χώρο της πόλης.
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/fest2-905x1024.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/fest2.png)
+
+[![](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/fest1-1024x659.png)](https://hackers.ioarvanit.gr/wp-content/uploads/2025/02/fest1.png)
+
+Από την παρουσίαση του έργου μας στο Μαθητικό Φεστιβάλ Ψηφιακής Δημιουργίας
+
+----------
+
+**Let’s PL.AI**  είναι ένα έργο που γεννήθηκε μέσα από τη χαρά της μάθησης, της συνεργασίας και της δημιουργίας. Οι μαθήτριες και οι μαθητές ανέλαβαν ρόλους σχεδιαστών, προγραμματιστών και κατασκευαστών, αποδεικνύοντας πως η καινοτομία δεν έχει ηλικία – αρκεί να έχει χώρο να αναπτυχθεί.
